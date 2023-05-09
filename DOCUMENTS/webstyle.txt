@@ -1,0 +1,133 @@
+body{
+    background-color:rgb(255 255 255);
+}
+#hdo{
+    background-color: rgb(222, 255, 255);
+}
+#hdimage{
+    height: 2.5cm;
+    position: relative;
+    left: 12cm;
+}
+#hdi1{
+    position: absolute;
+    left: 16cm;
+    top: 0.5cm;
+    font-size: 0.81cm;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hdi2{
+    position: absolute;
+    right: 0.8cm;
+    top: 1.4cm;
+    font-size: 0.72cm;
+    font-style: oblique;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    margin: 0%;
+    border: 0.01cm solid black;
+    height: 1.15cm;
+}
+ul li{
+    display: inline-block;
+    padding-inline-end: 2.45cm;
+    padding-top: 0.3cm;
+    font-size: 0.5cm;
+    font-weight: bold;
+    font-style: italic;
+}
+ul li a{
+    text-decoration: none;
+}
+#menu{
+    background-color:#a4beff;
+    height: 1.2cm;
+}
+#image{
+    height: 9cm;
+    position: absolute;
+    top: 4.1cm;
+    right: 0.2cm;
+    border: 0.1cm solid rgb(219 255 255);
+}
+#welcome{
+    position: relative;
+    top: 0.2cm;
+    left: 0.05cm;
+    border: 0.01cm solid sienna;
+    width: 22.8cm;
+}
+#wel{
+    text-align: center;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    text-decoration: underline solid;
+    font-size: 0.7cm;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgray;
+}
+#info{
+    text-align: left;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-bottom: 0.15cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: x-large;
+}
+#message{
+    border: 0.01cm solid sienna;
+    width: 17cm;
+    position: absolute;
+    right: 0.2cm;
+    top: 13.5cm;
+    padding: 0.5cm;
+    height: 10cm;
+}
+.mes{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.message1{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding-top: 0.3cm;
+}
+#principal{
+    height: 3cm;
+    position: relative;
+    top: 0.3cm;
+    left: 12.8cm;
+}
+.mes1{
+    position: relative;
+    top: -1.5cm;
+    color:tomato;
+}
+#course{
+    position: absolute;
+    top: 14cm;
+    left: 0.9cm;
+    width: 16cm;
+    text-align: center;
+}
+#seats{
+    position: absolute;
+    top: 19.5cm;
+    left: 4cm;
+    width: 9cm;
+    text-align: center;
+}
+#ft{
+    position: relative;
+    top: 12.4cm;
+    background-color: red;
+    color: blue;
+}

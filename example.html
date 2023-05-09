@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="icon" href="IMAGES/logo.jpg" type="icon/image">
+    <style>
+        progress::-webkit-progress-bar {
+            height: 10px;
+            background-color: #dfdfdf;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0, 2) inset;
+            border-radius: 5px;
+        }
+
+        progress {
+            height: 10px;
+            background-color: #dfdfdf;
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0, 2) inset;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>
+        <label>Enter your <a href="#">name</a>
+            <input type="text" name="username" tabindex="1">
+        </label>
+    </p>
+    <p>
+        <label>Enter your <a href="#">age</a>
+            <input type="text" name="age" tabindex="2">
+        </label>
+    </p>
+    <p>
+        <input type="submit" tabindex="3">
+    </p>
+    <p>Progess task 1:
+        <progress id="prog1" value="0" max="100">0%</progress>
+    </p>
+    <p>Progess task 2:
+        <progress id="prog2" value="45" max="100">45%</progress>
+    </p>
+    <p>Progess task 3:
+        <progress id="prog3" value="98" max="100">98%</progress>
+    </p>
+    
+    <label for="part">Part number:
+        <input pattern="[0-9][A-Z]{3}" name="part" placeholder="Enter a part number"
+            title="A Part number is a digit followed by three uppercase letters.">
+    </label>
+    <br>
+    <br>
+    <section>
+        <label for="game">Your move:
+            <select name="gameoption" id="game">
+                <datalist id="game">
+                    <option value="---your move---">-----your move-----</option>
+                    <option value="rock">rock</option>
+                    <option value="paper">paper</option>
+                    <option value="scissors">scissors</option>
+                    <option value="unicorn">unicorn</option>
+                    <option value="sledgehammer">sledgehammer</option>
+                </datalist>
+            </select>
+        </label>
+    </section>
+</body>
+
+</html>

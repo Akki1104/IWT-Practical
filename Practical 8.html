@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Convertion</title>
+    <script>
+        function change(){
+            let s1=document.getElementById("input").value;
+            let s2=s1.toUpperCase();
+            document.getElementById("output").innerHTML=s2;
+        }
+    </script>
+</head>
+<body>
+    <h2>Converting a String to Upper Case</h2>
+    <label for="input">Enter a Stirng : </label>
+    <input type="text" name="input" id="input">
+    <button onclick="change()">Convert</button>
+    <br><br>
+    <span>Coverted String : <span id="output"></span></span>
+</body>
+</html>

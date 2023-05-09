@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Validation</title>
+    <script>
+        function valid(){
+            let u=["ABC","abc","XYZ","xyz","mno"];
+            let pa=["123456789","987654321","565656343434","67896789","0123456789"];
+            let name=document.getElementById("username").value;
+            let pas=document.getElementById("password").value;
+            let flag;
+            if(name==""){
+                alert("Username must not be blank.");
+                return false;
+            }
+            if(pas.length<8||pas.length>14){
+                alert("Password must be at least 8 to 14 characters long.");
+                return false;
+            }
+            if(name!=""&&(pas.length=8&&pas.length<=14)){
+                for(let x=0;x<u.length;x++){
+                    if(name==u[x]&&pas==pa[x]){
+                        flag=true;
+                        break;
+                    }
+                    else
+                        flag=false;
+                }
+                if(flag==true){
+                    alert("Successful Login!");
+                    return true;
+                }
+                else{
+                    alert("*Username and Password does not match.");
+                    return false;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return valid()">
+        <label for="username">Username</label><br>
+        <input type="text" name="Username" id="username"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

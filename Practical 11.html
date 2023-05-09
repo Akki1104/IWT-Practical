@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advertisement</title>
+</head>
+
+<body>
+    <center><img id="ads" src="advertisement.png" height="300px" alt="advertisement"></center>
+    <script>
+        var arr = ["advertising.jpg", "benefits-of-advertisement.jpg", "coke-2.jpg"];
+        var x = 0;
+        setInterval(imagechange, 10000);
+        function imagechange() {
+            document.getElementById('ads').src = (arr[x]);
+            x++;
+            if (x == arr.length)
+                x = 0;
+        }
+    </script>
+</body>
+
+</html>

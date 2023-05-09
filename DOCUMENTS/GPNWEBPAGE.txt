@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Government Polytechnic Narendra Nagar Tehri Garhwal Uttarakhand</title>
+    <link rel="icon" href="unnamed.jpg" type="image/icon type">
+    <link rel="stylesheet" href="webstyle.css">
+</head>
+<body>
+    <div id="hdo">
+        <img id="hdimage" src="1438534.png" alt="img">
+        <div id="hdi1">Government Polytechnic Narendra Nagar, Tehri Garhwal</div>
+        <div id="hdi2">(Established in 1975)</div>
+    </div>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Student</a></li>
+            <li><a href="#">Training & Placements</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <img src="clgimg.jpg" alt="img" id="image">
+    <div id="welcome">
+        <div id="wel">WELCOME TO GOVERNMENT POLYTECHNIC,NARENDRA NAGAR(T.G)</div>
+        <div id="info">Government Polytechnic, Narendranagar was established by the Government of Uttar Pradesh in
+            1975, for imparting technical education and to generate suitable technical manpower. The institute is fully
+            financed by Government of Uttarakhand.
+        </div>
+        <div id="info">It offers Diploma in Engineering in six branches, namely Electrical Engineering, Electronics
+            Engineering ,Information Technology,Civil Engineering,Mechanical Engineering,Gaming&Animation and Diploma in
+            Pharmacy and P.G. Diploma in Computer Application.
+        </div>
+    </div>
+    <div id="message">
+        <hr>
+        <div class="mes">MESSAGE</div>
+        <hr>
+        <div class="message1">Government Polytechnic, Narendranagar is an institution that aims the complete development
+            of the students.
+            The Institute has been offering diploma in various disciplines. Institute has a glorious history of thirty
+            seven years in imparting quality Engineering Education .
+        </div>
+        <div class="message1"> Ever since its establishment our Experienced and highly qualified faculty has been trying
+            to deliver its
+            best in all the spheres of a student's all round development, whether its education , extra-curricular ,
+            sports and much more.
+        </div>
+        <div class="message1">I welcome you to be part of our Institute. We offer you an excellent platform to actively
+            participate in the
+            field of technology , research and Innovation activities.
+        </div>
+        <img src="principal.jpg" alt="img" id="principal">
+        <div class="mes1">Mr. Alok Misra,<br>
+            Principal,<br>
+            Government Polytechnic Narendra Nagar (T.G.)
+        </div>
+    </div>
+        <table border="+2" id="course">
+            <tr>
+                <th>Group</th>
+                <th>Course name</th>
+                <th>Course Duration</th>
+                <th>Eligibility</th>
+            </tr>
+            <tr>
+                <td>E(Engineering)</td>
+                <td>Diploma in Engineering and Technology</td>
+                <td>Three Years</td>
+                <td>Pass 10th or equivalent examination with Science & Mathematics Subjects. Obtain minimum 35% marks in
+                    examination.</td>
+            </tr>
+            <tr>
+                <td>P(Pharmacy)</td>
+                <td>Diploma in Pharmacy</td>
+                <td>Two Years</td>
+                <td>Pass 10-12 examination with Physics, Chemistry & Biology/Mathematics. NIOS passing students are
+                    eligible.</td>
+            </tr>
+        </table>
+        <table border="+2" id="seats">
+            <tr>
+                <th>Branch</th>
+                <th>Total Seats</th>
+            </tr>
+            <tr>
+                <td>Electrical Engineering</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Electronics Engineering</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Information Technology</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Civil Engineering</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Mechanical Engineering</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Gaming & Animations</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Pharmacy</td>
+                <td>40</td>
+            </tr>
+        </table>
+        <marquee id="ft" behavior="alternate" direction="left" loop="">
+            <div>RAGGING IS PROHIBITED INSIDE OR OUTSIDE THE INSTITUTE. Anti Ragging Helpline No. 1800-180-552</div>
+        </marquee>
+</body>
+</html>
